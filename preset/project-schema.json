@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BioCDMO PM Project",
+  "type": "object",
+  "required": ["project_id", "client", "project_name", "stage", "status", "project_manager"],
+  "properties": {
+    "project_id": {"type": "string"},
+    "client": {"type": "string"},
+    "project_name": {"type": "string"},
+    "molecule": {"type": "string"},
+    "project_type": {"type": "string"},
+    "stage": {"enum": ["Commercial", "Tech Transfer", "Process Development", "Analytical", "Scale-up", "Manufacturing", "Release", "Closeout"]},
+    "status": {"enum": ["Green", "Amber", "Red"]},
+    "project_manager": {"type": "string"},
+    "start_date": {"type": ["string", "null"], "format": "date"},
+    "target_end_date": {"type": ["string", "null"], "format": "date"},
+    "milestones": {"type": "array", "items": {"$ref": "#/$defs/milestone"}},
+    "actions": {"type": "array", "items": {"$ref": "#/$defs/action"}},
+    "risks": {"type": "array", "items": {"$ref": "#/$defs/risk"}},
+    "documents": {"type": "array", "items": {"$ref": "#/$defs/document"}},
+    "contract_obligations": {"type": "array", "items": {"$ref": "#/$defs/obligation"}}
+  },
+  "$defs": {
+    "milestone": {
+      "type": "object",
+      "required": ["id", "name", "status"],
+      "properties": {
+        "id": {"type": "string"}, "name": {"type": "string"},
+        "planned_date": {"type": ["string", "null"]}, "actual_date": {"type": ["string", "null"]},
+        "owner": {"type": ["string", "null"]}, "status": {"enum": ["Planned", "In Progress", "Blocked", "At Risk", "Done", "Cancelled"]},
+        "dependencies": {"type": "array", "items": {"type": "string"}}, "source": {"type": ["string", "null"]}
+      }
+    },
+    "action": {
+      "type": "object",
+      "required": ["id", "action", "status"],
+      "properties": {
+        "id": {"type": "string"}, "action": {"type": "string"}, "owner": {"type": ["string", "null"]},
+        "owner_type": {"enum": ["Internal", "Client", "Vendor", "Unknown"]}, "due_date": {"type": ["string", "null"]},
+        "status": {"enum": ["Open", "In Progress", "Blocked", "Done", "Cancelled"]}, "source": {"type": ["string", "null"]},
+        "next_follow_up": {"type": ["string", "null"]}
+      }
+    },
+    "risk": {"type": "object", "required": ["id", "description", "status"], "properties": {"id": {"type": "string"}, "description": {"type": "string"}, "probability": {"enum": ["Low", "Medium", "High"]}, "impact": {"enum": ["Low", "Medium", "High"]}, "owner": {"type": ["string", "null"]}, "status": {"enum": ["Open", "Mitigated", "Accepted", "Closed"]}, "mitigation": {"type": ["string", "null"]}, "source": {"type": ["string", "null"]}}},
+    "document": {"type": "object", "required": ["id", "name", "type"], "properties": {"id": {"type": "string"}, "name": {"type": "string"}, "type": {"type": "string"}, "version": {"type": ["string", "null"]}, "status": {"type": ["string", "null"]}, "source": {"type": ["string", "null"]}}},
+    "obligation": {"type": "object", "required": ["id", "obligation", "status"], "properties": {"id": {"type": "string"}, "obligation": {"type": "string"}, "responsible_party": {"type": ["string", "null"]}, "due_date": {"type": ["string", "null"]}, "status": {"enum": ["Open", "In Progress", "Done", "Not Applicable"]}, "contract_source": {"type": ["string", "null"]}}}
+  }
+}

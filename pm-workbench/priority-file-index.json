@@ -1,0 +1,932 @@
+{
+    "schema_version":  1,
+    "captured_at":  "2026-10-08T12:44:31.9925396+08:00",
+    "source":  "Read-only UNC metadata snapshot",
+    "limit_per_category":  25,
+    "projects":  {
+                     "IP266":  {
+                                   "categories":  {
+                                                      "progress":  {
+                                                                       "folder":  "05-项目进展汇报",
+                                                                       "total_files":  204,
+                                                                       "files":  [
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\温度偏移各国要求总结.pdf",
+                                                                                         "file_name":  "温度偏移各国要求总结.pdf",
+                                                                                         "extension":  ".pdf",
+                                                                                         "bytes":  681385,
+                                                                                         "modified_at":  "2026-09-22 14:16:32"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP266 冷链超温评估.pptx",
+                                                                                         "file_name":  "IP266 冷链超温评估.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  886186,
+                                                                                         "modified_at":  "2026-09-22 14:16:29"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP266 0.25 ml注射器使用准确度-合并混匀保存时限研究-20260904.pptx",
+                                                                                         "file_name":  "IP266 0.25 ml注射器使用准确度-合并混匀保存时限研究-20260904.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  14766224,
+                                                                                         "modified_at":  "2026-09-04 15:15:24"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "03-CCPD\\IP266-上游工艺开发进展-2026.09.04.pptx",
+                                                                                         "file_name":  "IP266-上游工艺开发进展-2026.09.04.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  3606000,
+                                                                                         "modified_at":  "2026-09-04 13:09:11"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "04-DSPD\\IP266DSX20260601批次UFDF收率较低原因调查..pptx",
+                                                                                         "file_name":  "IP266DSX20260601批次UFDF收率较低原因调查..pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  15630457,
+                                                                                         "modified_at":  "2026-07-29 18:56:29"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "03-CCPD\\IP266-上游工艺开发进展-2026.07.27.pptx",
+                                                                                         "file_name":  "IP266-上游工艺开发进展-2026.07.27.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  4440719,
+                                                                                         "modified_at":  "2026-07-27 16:56:21"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP266 PFS包材筛选-ocul260508-20260509.pptx",
+                                                                                         "file_name":  "IP266 PFS包材筛选-ocul260508-20260509.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  223195,
+                                                                                         "modified_at":  "2026-05-09 14:08:29"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP266 模拟运输研究-部分结果更新-20260425.pptx",
+                                                                                         "file_name":  "IP266 模拟运输研究-部分结果更新-20260425.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  8912693,
+                                                                                         "modified_at":  "2026-04-25 15:04:32"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP266 模拟运输研究-部分结果更新-2026.4.13.pptx",
+                                                                                         "file_name":  "IP266 模拟运输研究-部分结果更新-2026.4.13.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  8912248,
+                                                                                         "modified_at":  "2026-04-13 17:16:14"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP266 模拟运输研究-部分结果更新.pptx",
+                                                                                         "file_name":  "IP266 模拟运输研究-部分结果更新.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  8904065,
+                                                                                         "modified_at":  "2026-03-27 19:20:35"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "09-MFG-DP\\IP266项目会进展汇报 -20251225.pptx",
+                                                                                         "file_name":  "IP266项目会进展汇报 -20251225.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  3253413,
+                                                                                         "modified_at":  "2025-12-25 17:33:33"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "06-AD\\中国药典GAP分析进度-2025.08.12.pptx",
+                                                                                         "file_name":  "中国药典GAP分析进度-2025.08.12.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  13269505,
+                                                                                         "modified_at":  "2025-08-08 17:24:39"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "06-AD\\IP266抗原双靶点竞争性结合-2025.5.19.pptx",
+                                                                                         "file_name":  "IP266抗原双靶点竞争性结合-2025.5.19.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  408627,
+                                                                                         "modified_at":  "2025-05-19 16:02:43"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP266 配伍稳定性研究 -oculgen-20250208-20250210.pptx",
+                                                                                         "file_name":  "IP266 配伍稳定性研究 -oculgen-20250208-20250210.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  314317,
+                                                                                         "modified_at":  "2025-02-10 15:32:18"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP266 配伍稳定性研究 -20250208.pptx",
+                                                                                         "file_name":  "IP266 配伍稳定性研究 -20250208.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  310623,
+                                                                                         "modified_at":  "2025-02-08 15:39:39"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "09-MFG-DP\\IP266项目会进展汇报 -20250102.pptx",
+                                                                                         "file_name":  "IP266项目会进展汇报 -20250102.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  3254284,
+                                                                                         "modified_at":  "2025-01-02 19:45:47"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\2024.12.11\\SOP(C)-QC-IP266-1-017-R01-3.0 IP266聚山梨酯20含量（FLD-HPLC法）检测记录.pdf",
+                                                                                         "file_name":  "SOP(C)-QC-IP266-1-017-R01-3.0 IP266聚山梨酯20含量（FLD-HPLC法）检测记录.pdf",
+                                                                                         "extension":  ".pdf",
+                                                                                         "bytes":  6312097,
+                                                                                         "modified_at":  "2024-12-11 11:10:14"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\2024.12.11\\SOP(C)-QC-IP266-1-013-R01-2.0 IP266原液C5相对结合活性（酶联免疫吸附法）检测记录.pdf",
+                                                                                         "file_name":  "SOP(C)-QC-IP266-1-013-R01-2.0 IP266原液C5相对结合活性（酶联免疫吸附法）检测记录.pdf",
+                                                                                         "extension":  ".pdf",
+                                                                                         "bytes":  26417809,
+                                                                                         "modified_at":  "2024-12-09 14:33:22"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\2024.12.11\\SOP(C)-QC-IP266-1-012-R01-2.0 IP266原液VEGF相对结合活性（酶联免疫吸附法）检测记录.pdf",
+                                                                                         "file_name":  "SOP(C)-QC-IP266-1-012-R01-2.0 IP266原液VEGF相对结合活性（酶联免疫吸附法）检测记录.pdf",
+                                                                                         "extension":  ".pdf",
+                                                                                         "bytes":  27997520,
+                                                                                         "modified_at":  "2024-12-09 14:33:11"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\2024.12.05\\IP266项目汇报-20241205.pptx",
+                                                                                         "file_name":  "IP266项目汇报-20241205.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  34653126,
+                                                                                         "modified_at":  "2024-12-05 20:46:10"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\2024.12.05\\IP266SOP升版交付\\C5以及VEGF结合活性SOP在培训生效中，下周可以交付.txt",
+                                                                                         "file_name":  "C5以及VEGF结合活性SOP在培训生效中，下周可以交付.txt",
+                                                                                         "extension":  ".txt",
+                                                                                         "bytes":  0,
+                                                                                         "modified_at":  "2024-12-05 18:42:29"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\2024.12.05\\IP266SOP升版交付\\SOP(C)-QC-1-018-R01-2.0 细菌内毒素检查法（凝胶法）检验记录.pdf",
+                                                                                         "file_name":  "SOP(C)-QC-1-018-R01-2.0 细菌内毒素检查法（凝胶法）检验记录.pdf",
+                                                                                         "extension":  ".pdf",
+                                                                                         "bytes":  994657,
+                                                                                         "modified_at":  "2024-11-26 13:32:04"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP266 65 mg ml研究-2024.11.11.pptx",
+                                                                                         "file_name":  "IP266 65 mg ml研究-2024.11.11.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  226001,
+                                                                                         "modified_at":  "2024-11-11 14:50:08"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP266 制剂处方PS20含量表征试验-2024.11.11.pptx",
+                                                                                         "file_name":  "IP266 制剂处方PS20含量表征试验-2024.11.11.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  238027,
+                                                                                         "modified_at":  "2024-11-11 14:50:04"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\2024.12.05\\IP266SOP升版交付\\SOP(C)-QC-IP266-1-006-R01-2.0  IP266原液纯度（非还原毛细管凝胶电泳法）检测记录.pdf",
+                                                                                         "file_name":  "SOP(C)-QC-IP266-1-006-R01-2.0  IP266原液纯度（非还原毛细管凝胶电泳法）检测记录.pdf",
+                                                                                         "extension":  ".pdf",
+                                                                                         "bytes":  25412276,
+                                                                                         "modified_at":  "2024-11-07 11:09:51"
+                                                                                     }
+                                                                                 ]
+                                                                   },
+                                                      "minutes":  {
+                                                                      "folder":  "06-项目会会议纪要",
+                                                                      "total_files":  25,
+                                                                      "files":  [
+                                                                                    {
+                                                                                        "relative_path":  "IP266会议纪要-2026.8.5.xlsx",
+                                                                                        "file_name":  "IP266会议纪要-2026.8.5.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  12305,
+                                                                                        "modified_at":  "2026-08-05 19:05:14"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266会议纪要-2026.1.9.xlsx",
+                                                                                        "file_name":  "IP266会议纪要-2026.1.9.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  8200,
+                                                                                        "modified_at":  "2026-01-09 17:37:43"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-会议纪要-2024.10.22.xlsx",
+                                                                                        "file_name":  "IP266-会议纪要-2024.10.22.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  33360,
+                                                                                        "modified_at":  "2024-10-22 17:27:42"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-会议纪要-2024.10.17.xlsx",
+                                                                                        "file_name":  "IP266-会议纪要-2024.10.17.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  33640,
+                                                                                        "modified_at":  "2024-10-17 21:16:36"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-会议纪要-2024.9.25.xlsx",
+                                                                                        "file_name":  "IP266-会议纪要-2024.9.25.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  33744,
+                                                                                        "modified_at":  "2024-09-25 19:27:36"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-会议纪要-2024.9.14.xlsx",
+                                                                                        "file_name":  "IP266-会议纪要-2024.9.14.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  34269,
+                                                                                        "modified_at":  "2024-09-14 17:36:24"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-会议纪要-2024.9.13.xlsx",
+                                                                                        "file_name":  "IP266-会议纪要-2024.9.13.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  35403,
+                                                                                        "modified_at":  "2024-09-13 20:50:05"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-会议纪要-2024.8.15.xlsx",
+                                                                                        "file_name":  "IP266-会议纪要-2024.8.15.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  36142,
+                                                                                        "modified_at":  "2024-08-15 17:23:49"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-会议纪要-2024.7.2.xlsx",
+                                                                                        "file_name":  "IP266-会议纪要-2024.7.2.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  36022,
+                                                                                        "modified_at":  "2024-07-02 13:17:10"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-2023.12.15.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-2023.12.15.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  35710,
+                                                                                        "modified_at":  "2023-12-18 15:10:33"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-2023.12.6.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-2023.12.6.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  20414,
+                                                                                        "modified_at":  "2023-12-06 16:34:36"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-2023.11.22.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-2023.11.22.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  23624,
+                                                                                        "modified_at":  "2023-11-22 14:11:18"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-2023.10.31-欧科健修改.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-2023.10.31-欧科健修改.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  20374,
+                                                                                        "modified_at":  "2023-11-06 16:03:34"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-2023.10.31.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-2023.10.31.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  20241,
+                                                                                        "modified_at":  "2023-11-03 13:45:31"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-2023.10.13.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-2023.10.13.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  20441,
+                                                                                        "modified_at":  "2023-10-13 17:38:57"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-2023.9.27-欧科健修改.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-2023.9.27-欧科健修改.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  22809,
+                                                                                        "modified_at":  "2023-09-28 09:40:08"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-2023.9.27.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-2023.9.27.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  21170,
+                                                                                        "modified_at":  "2023-09-27 17:28:47"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-2023.9.13.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-2023.9.13.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  21582,
+                                                                                        "modified_at":  "2023-09-14 16:53:06"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-2023.8.30.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-2023.8.30.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  23932,
+                                                                                        "modified_at":  "2023-08-30 17:22:58"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-2023.8.2.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-2023.8.2.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  20449,
+                                                                                        "modified_at":  "2023-08-02 15:49:50"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-oculgen0721.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-oculgen0721.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  21977,
+                                                                                        "modified_at":  "2023-07-21 17:18:10"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-0719V1.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-0719V1.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  21278,
+                                                                                        "modified_at":  "2023-07-21 09:22:08"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-0719.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-0719.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  18082,
+                                                                                        "modified_at":  "2023-07-20 13:23:45"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-0705.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-0705.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  17814,
+                                                                                        "modified_at":  "2023-07-06 10:49:48"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP266-Meeting Minutes-0621.xlsx",
+                                                                                        "file_name":  "IP266-Meeting Minutes-0621.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  18441,
+                                                                                        "modified_at":  "2023-06-25 10:00:17"
+                                                                                    }
+                                                                                ]
+                                                                  }
+                                                  }
+                               },
+                     "IP322":  {
+                                   "categories":  {
+                                                      "progress":  {
+                                                                       "folder":  "05-项目进展汇报",
+                                                                       "total_files":  64,
+                                                                       "files":  [
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322-FD-20260918.pptx",
+                                                                                         "file_name":  "IP322-FD-20260918.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  18479925,
+                                                                                         "modified_at":  "2026-09-18 20:08:17"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\IP322C VEGF-结果汇报-2026.9.18.pptx",
+                                                                                         "file_name":  "IP322C VEGF-结果汇报-2026.9.18.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  3635205,
+                                                                                         "modified_at":  "2026-09-18 19:44:26"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\IP322C VEGF-结果汇报-2026.9.11.pptx",
+                                                                                         "file_name":  "IP322C VEGF-结果汇报-2026.9.11.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  3677172,
+                                                                                         "modified_at":  "2026-09-11 16:42:43"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\IP322C icIEF稳定性检测情况调查.pptx",
+                                                                                         "file_name":  "IP322C icIEF稳定性检测情况调查.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  12770077,
+                                                                                         "modified_at":  "2026-09-10 16:40:08"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\IP322C SPR方案-2026.8.19.pptx",
+                                                                                         "file_name":  "IP322C SPR方案-2026.8.19.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  3285936,
+                                                                                         "modified_at":  "2026-08-19 15:21:45"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "06-AD\\IP322亲和力检测结果-20250506.pptx",
+                                                                                         "file_name":  "IP322亲和力检测结果-20250506.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  1034219,
+                                                                                         "modified_at":  "2026-08-14 13:58:06"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322-FD-20260605.pptx",
+                                                                                         "file_name":  "IP322-FD-20260605.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  18473364,
+                                                                                         "modified_at":  "2026-06-05 17:31:07"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "02-CLD\\IP322C(OCUL401)-MCB长期传代稳定性研究-20260525.pptx",
+                                                                                         "file_name":  "IP322C(OCUL401)-MCB长期传代稳定性研究-20260525.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  3923706,
+                                                                                         "modified_at":  "2026-05-26 14:42:16"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "02-CLD\\03-IP322C 流加实验.xlsx",
+                                                                                         "file_name":  "03-IP322C 流加实验.xlsx",
+                                                                                         "extension":  ".xlsx",
+                                                                                         "bytes":  662249,
+                                                                                         "modified_at":  "2026-05-18 13:03:37"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "09-MFG-DP\\IP322C-项目进展汇报IP322CDPC20260302.pptx",
+                                                                                         "file_name":  "IP322C-项目进展汇报IP322CDPC20260302.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  3263713,
+                                                                                         "modified_at":  "2026-04-20 13:03:31"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "09-MFG-DP\\IP322C-项目进展汇报.pptx",
+                                                                                         "file_name":  "IP322C-项目进展汇报.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  3225877,
+                                                                                         "modified_at":  "2026-03-31 11:01:09"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322-FD-20260312.pptx",
+                                                                                         "file_name":  "IP322-FD-20260312.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  18471452,
+                                                                                         "modified_at":  "2026-03-12 17:44:58"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322C 配伍稳定性研究方案-20260309-ocul0310-20260310.pptx",
+                                                                                         "file_name":  "IP322C 配伍稳定性研究方案-20260309-ocul0310-20260310.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  308963,
+                                                                                         "modified_at":  "2026-03-10 13:49:52"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322C 配伍稳定性研究方案-20260309.pptx",
+                                                                                         "file_name":  "IP322C 配伍稳定性研究方案-20260309.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  307149,
+                                                                                         "modified_at":  "2026-03-09 15:44:11"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "07-MFG-USP\\0-IP322C上游数据更新-2026.02.07.xlsx",
+                                                                                         "file_name":  "0-IP322C上游数据更新-2026.02.07.xlsx",
+                                                                                         "extension":  ".xlsx",
+                                                                                         "bytes":  300884,
+                                                                                         "modified_at":  "2026-02-07 13:36:15"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322-FD-20251229.pptx",
+                                                                                         "file_name":  "IP322-FD-20251229.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  18466917,
+                                                                                         "modified_at":  "2025-12-29 17:23:25"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322-FD-20251218.pptx",
+                                                                                         "file_name":  "IP322-FD-20251218.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  18459814,
+                                                                                         "modified_at":  "2025-12-19 14:04:43"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322-FD-20251209.pptx",
+                                                                                         "file_name":  "IP322-FD-20251209.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  18448046,
+                                                                                         "modified_at":  "2025-12-10 09:17:37"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322-FD-20251204.pptx",
+                                                                                         "file_name":  "IP322-FD-20251204.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  18440190,
+                                                                                         "modified_at":  "2025-12-04 11:15:46"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "03-CCPD\\IP322C-项目进展汇报-20251204.pptx",
+                                                                                         "file_name":  "IP322C-项目进展汇报-20251204.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  4141604,
+                                                                                         "modified_at":  "2025-12-04 10:05:49"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "04-DSPD\\IP322C DSPD进展汇报（工艺开发）-251201.pptx",
+                                                                                         "file_name":  "IP322C DSPD进展汇报（工艺开发）-251201.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  5830301,
+                                                                                         "modified_at":  "2025-12-01 13:02:43"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322-FD-20251126.pptx",
+                                                                                         "file_name":  "IP322-FD-20251126.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  18439059,
+                                                                                         "modified_at":  "2025-11-26 15:26:11"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322-FD-20251120.pptx",
+                                                                                         "file_name":  "IP322-FD-20251120.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  18436855,
+                                                                                         "modified_at":  "2025-11-21 15:04:19"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322-FD-20251118.pptx",
+                                                                                         "file_name":  "IP322-FD-20251118.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  18435114,
+                                                                                         "modified_at":  "2025-11-18 10:35:28"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP322-FD-20251112.pptx",
+                                                                                         "file_name":  "IP322-FD-20251112.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  18422503,
+                                                                                         "modified_at":  "2025-11-12 17:20:12"
+                                                                                     }
+                                                                                 ]
+                                                                   },
+                                                      "minutes":  {
+                                                                      "folder":  "06-项目会会议纪要",
+                                                                      "total_files":  0,
+                                                                      "files":  [
+
+                                                                                ]
+                                                                  }
+                                                  }
+                               },
+                     "IP160":  {
+                                   "categories":  {
+                                                      "progress":  {
+                                                                       "folder":  "05-项目进展汇报",
+                                                                       "total_files":  340,
+                                                                       "files":  [
+                                                                                     {
+                                                                                         "relative_path":  "04-DSPD\\IP160 下游进展汇报-生产数据0917.pptx",
+                                                                                         "file_name":  "IP160 下游进展汇报-生产数据0917.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  3556677,
+                                                                                         "modified_at":  "2026-09-17 16:38:50"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP160-FD-20260917.pptx",
+                                                                                         "file_name":  "IP160-FD-20260917.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  215951,
+                                                                                         "modified_at":  "2026-09-17 14:38:36"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "IP160-项目进展汇报-2026.09.17.pptx",
+                                                                                         "file_name":  "IP160-项目进展汇报-2026.09.17.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  5360910,
+                                                                                         "modified_at":  "2026-09-16 16:55:56"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "03-CCPD\\IP160-项目进展汇报-20260916.pptx",
+                                                                                         "file_name":  "IP160-项目进展汇报-20260916.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  4437434,
+                                                                                         "modified_at":  "2026-09-16 16:42:47"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "04-DSPD\\IP160 下游进展汇报-生产数据.pptx",
+                                                                                         "file_name":  "IP160 下游进展汇报-生产数据.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  4295356,
+                                                                                         "modified_at":  "2026-09-16 10:37:56"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP160-FD-20260916.pptx",
+                                                                                         "file_name":  "IP160-FD-20260916.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  215805,
+                                                                                         "modified_at":  "2026-09-16 10:17:22"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "00-SUM\\IP160-项目进展汇报-2026.09.03.pptx",
+                                                                                         "file_name":  "IP160-项目进展汇报-2026.09.03.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  4913851,
+                                                                                         "modified_at":  "2026-09-02 15:25:31"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "03-CCPD\\IP160-项目进展汇报-20260903.pptx",
+                                                                                         "file_name":  "IP160-项目进展汇报-20260903.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  4563993,
+                                                                                         "modified_at":  "2026-09-02 14:49:25"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\IP160长期稳定性研究数据-0902.xlsx",
+                                                                                         "file_name":  "IP160长期稳定性研究数据-0902.xlsx",
+                                                                                         "extension":  ".xlsx",
+                                                                                         "bytes":  726545,
+                                                                                         "modified_at":  "2026-09-01 14:18:13"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\IP160加速稳定性研究数据-0902.xlsx",
+                                                                                         "file_name":  "IP160加速稳定性研究数据-0902.xlsx",
+                                                                                         "extension":  ".xlsx",
+                                                                                         "bytes":  993302,
+                                                                                         "modified_at":  "2026-09-01 14:17:47"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "09-MFG-DP\\IP160 下游进展汇报-0825（600载量测试）.pptx",
+                                                                                         "file_name":  "IP160 下游进展汇报-0825（600载量测试）.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  3575310,
+                                                                                         "modified_at":  "2026-08-26 16:22:56"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "09-MFG-DP\\IP160产品收率预估DP5-2026.08.27.xlsx",
+                                                                                         "file_name":  "IP160产品收率预估DP5-2026.08.27.xlsx",
+                                                                                         "extension":  ".xlsx",
+                                                                                         "bytes":  8421,
+                                                                                         "modified_at":  "2026-08-24 17:06:26"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "IP160 临床生产样品需求表-2026.8.12cs.xlsx",
+                                                                                         "file_name":  "IP160 临床生产样品需求表-2026.8.12cs.xlsx",
+                                                                                         "extension":  ".xlsx",
+                                                                                         "bytes":  41208,
+                                                                                         "modified_at":  "2026-08-20 14:06:22"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "00-SUM\\IP160-项目进展汇报-2026.08.20.pptx",
+                                                                                         "file_name":  "IP160-项目进展汇报-2026.08.20.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  7729875,
+                                                                                         "modified_at":  "2026-08-19 13:33:06"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "03-CCPD\\IP160-项目进展汇报-20260820.pptx",
+                                                                                         "file_name":  "IP160-项目进展汇报-20260820.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  7380992,
+                                                                                         "modified_at":  "2026-08-19 10:56:57"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\IP160长期稳定性研究数据-0818.xlsx",
+                                                                                         "file_name":  "IP160长期稳定性研究数据-0818.xlsx",
+                                                                                         "extension":  ".xlsx",
+                                                                                         "bytes":  698976,
+                                                                                         "modified_at":  "2026-08-19 10:16:52"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\IP160加速稳定性研究数据-0818.xlsx",
+                                                                                         "file_name":  "IP160加速稳定性研究数据-0818.xlsx",
+                                                                                         "extension":  ".xlsx",
+                                                                                         "bytes":  985840,
+                                                                                         "modified_at":  "2026-08-18 14:00:36"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "03-CCPD\\IP160-项目进展汇报-20260813.pptx",
+                                                                                         "file_name":  "IP160-项目进展汇报-20260813.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  7222645,
+                                                                                         "modified_at":  "2026-08-13 09:59:54"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "05-FD\\IP160-FD-20260810.pptx",
+                                                                                         "file_name":  "IP160-FD-20260810.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  200643,
+                                                                                         "modified_at":  "2026-08-10 10:54:46"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "00-SUM\\IP160-项目进展汇报-2026.08.06.pptx",
+                                                                                         "file_name":  "IP160-项目进展汇报-2026.08.06.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  7677541,
+                                                                                         "modified_at":  "2026-08-05 17:32:31"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "04-DSPD\\IP160 下游进展汇报-0805.pptx",
+                                                                                         "file_name":  "IP160 下游进展汇报-0805.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  4087722,
+                                                                                         "modified_at":  "2026-08-05 17:18:40"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "03-CCPD\\IP160-项目进展汇报-20260806.pptx",
+                                                                                         "file_name":  "IP160-项目进展汇报-20260806.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  7221615,
+                                                                                         "modified_at":  "2026-08-05 14:00:35"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\IP160长期稳定性研究数据-0805.xlsx",
+                                                                                         "file_name":  "IP160长期稳定性研究数据-0805.xlsx",
+                                                                                         "extension":  ".xlsx",
+                                                                                         "bytes":  698950,
+                                                                                         "modified_at":  "2026-08-05 13:23:34"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "10-QC\\IP160加速稳定性研究数据0805.xlsx",
+                                                                                         "file_name":  "IP160加速稳定性研究数据0805.xlsx",
+                                                                                         "extension":  ".xlsx",
+                                                                                         "bytes":  985829,
+                                                                                         "modified_at":  "2026-08-05 13:22:06"
+                                                                                     },
+                                                                                     {
+                                                                                         "relative_path":  "04-DSPD\\IP160 下游工艺路线测试结果汇总-20260728.pptx",
+                                                                                         "file_name":  "IP160 下游工艺路线测试结果汇总-20260728.pptx",
+                                                                                         "extension":  ".pptx",
+                                                                                         "bytes":  3905079,
+                                                                                         "modified_at":  "2026-07-28 15:34:31"
+                                                                                     }
+                                                                                 ]
+                                                                   },
+                                                      "minutes":  {
+                                                                      "folder":  "06-项目会会议纪要",
+                                                                      "total_files":  55,
+                                                                      "files":  [
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.9.17.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.9.17.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  11835,
+                                                                                        "modified_at":  "2026-09-17 18:24:34"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.9.3.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.9.3.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  11151,
+                                                                                        "modified_at":  "2026-09-03 17:03:17"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.8.20.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.8.20.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  11684,
+                                                                                        "modified_at":  "2026-08-20 15:55:29"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.8.6.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.8.6.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  11735,
+                                                                                        "modified_at":  "2026-08-06 19:42:58"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.7.30.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.7.30.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  11164,
+                                                                                        "modified_at":  "2026-07-30 16:28:35"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.7.23.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.7.23.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  11415,
+                                                                                        "modified_at":  "2026-07-23 16:22:38"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.7.9.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.7.9.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  11490,
+                                                                                        "modified_at":  "2026-07-09 16:05:47"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.6.25.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.6.25.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  11710,
+                                                                                        "modified_at":  "2026-06-25 19:46:48"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.6.11.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.6.11.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  11536,
+                                                                                        "modified_at":  "2026-06-11 18:15:07"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.5.28.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.5.28.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  11957,
+                                                                                        "modified_at":  "2026-05-28 15:44:06"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.5.14.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.5.14.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  10656,
+                                                                                        "modified_at":  "2026-05-14 16:38:01"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.4.30.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.4.30.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  11819,
+                                                                                        "modified_at":  "2026-04-30 16:02:03"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.4.16.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.4.16.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  111815,
+                                                                                        "modified_at":  "2026-04-16 17:11:55"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "IP160会议纪要-2026.04.02.xlsx",
+                                                                                        "file_name":  "IP160会议纪要-2026.04.02.xlsx",
+                                                                                        "extension":  ".xlsx",
+                                                                                        "bytes":  10977,
+                                                                                        "modified_at":  "2026-04-03 09:36:53"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "历史\\IP160项目会议纪要-2022.01.19.docx",
+                                                                                        "file_name":  "IP160项目会议纪要-2022.01.19.docx",
+                                                                                        "extension":  ".docx",
+                                                                                        "bytes":  175849,
+                                                                                        "modified_at":  "2022-01-19 17:52:00"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "历史\\IP160项目会议纪要-2022.01.19.pdf",
+                                                                                        "file_name":  "IP160项目会议纪要-2022.01.19.pdf",
+                                                                                        "extension":  ".pdf",
+                                                                                        "bytes":  211245,
+                                                                                        "modified_at":  "2022-01-19 17:51:41"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "历史\\IP160项目会议纪要-2021.12.07.docx",
+                                                                                        "file_name":  "IP160项目会议纪要-2021.12.07.docx",
+                                                                                        "extension":  ".docx",
+                                                                                        "bytes":  176029,
+                                                                                        "modified_at":  "2021-12-08 17:16:34"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "历史\\IP160项目会议纪要-2021.12.07.pdf",
+                                                                                        "file_name":  "IP160项目会议纪要-2021.12.07.pdf",
+                                                                                        "extension":  ".pdf",
+                                                                                        "bytes":  228440,
+                                                                                        "modified_at":  "2021-12-08 17:13:53"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "历史\\IP160项目会议纪要-2021.11.05.docx",
+                                                                                        "file_name":  "IP160项目会议纪要-2021.11.05.docx",
+                                                                                        "extension":  ".docx",
+                                                                                        "bytes":  176353,
+                                                                                        "modified_at":  "2021-11-05 14:36:14"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "历史\\IP160项目会议纪要-2021.11.05.pdf",
+                                                                                        "file_name":  "IP160项目会议纪要-2021.11.05.pdf",
+                                                                                        "extension":  ".pdf",
+                                                                                        "bytes":  211053,
+                                                                                        "modified_at":  "2021-11-05 14:35:59"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "历史\\IP160项目会议纪要-2021.10.19.docx",
+                                                                                        "file_name":  "IP160项目会议纪要-2021.10.19.docx",
+                                                                                        "extension":  ".docx",
+                                                                                        "bytes":  176864,
+                                                                                        "modified_at":  "2021-10-20 14:46:32"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "历史\\IP160项目会议纪要-2021.10.19.pdf",
+                                                                                        "file_name":  "IP160项目会议纪要-2021.10.19.pdf",
+                                                                                        "extension":  ".pdf",
+                                                                                        "bytes":  210850,
+                                                                                        "modified_at":  "2021-10-20 13:08:21"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "历史\\IP160项目会议纪要-2021.09.24.docx",
+                                                                                        "file_name":  "IP160项目会议纪要-2021.09.24.docx",
+                                                                                        "extension":  ".docx",
+                                                                                        "bytes":  177466,
+                                                                                        "modified_at":  "2021-09-26 15:27:14"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "历史\\IP160项目会议纪要-2021.09.24.pdf",
+                                                                                        "file_name":  "IP160项目会议纪要-2021.09.24.pdf",
+                                                                                        "extension":  ".pdf",
+                                                                                        "bytes":  226843,
+                                                                                        "modified_at":  "2021-09-26 15:26:42"
+                                                                                    },
+                                                                                    {
+                                                                                        "relative_path":  "历史\\IP160项目会议纪要-2021.09.07.docx",
+                                                                                        "file_name":  "IP160项目会议纪要-2021.09.07.docx",
+                                                                                        "extension":  ".docx",
+                                                                                        "bytes":  176857,
+                                                                                        "modified_at":  "2021-09-08 17:34:36"
+                                                                                    }
+                                                                                ]
+                                                                  }
+                                                  }
+                               }
+                 }
+}

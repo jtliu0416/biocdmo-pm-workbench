@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "mode": "manual-mapping-until-pms-mcp",
+  "current_pm": {
+    "display_name": "宋莉",
+    "source": "manual configuration"
+  },
+  "projects": [
+    {
+      "project_id": "IP266",
+      "display_name": "IP266",
+      "project_manager": "宋莉",
+      "status": "active",
+      "rag": "Unknown",
+      "stage": "Needs PMS sync",
+      "file_root": "\\\\intbio.com\\group\\06-项目管理部-宋莉\\01-Project-Ongoing\\IP266",
+      "access_mode": "workspace-mounted",
+      "source": "manual mapping requested by PM"
+    },
+    {
+      "project_id": "IP322",
+      "display_name": "IP322",
+      "project_manager": "宋莉",
+      "status": "active",
+      "rag": "Unknown",
+      "stage": "Needs PMS sync",
+      "file_root": "\\\\intbio.com\\group\\06-项目管理部-宋莉\\01-Project-Ongoing\\IP322",
+      "access_mode": "workspace-mounted",
+      "source": "manual mapping requested by PM"
+    },
+    {
+      "project_id": "IP160",
+      "display_name": "IP160",
+      "project_manager": "宋莉",
+      "status": "active",
+      "rag": "Unknown",
+      "stage": "Needs PMS sync",
+      "file_root": "\\\\intbio.com\\group\\06-项目管理部-宋莉\\01-Project-Ongoing\\IP160",
+      "access_mode": "workspace-mounted",
+      "source": "manual mapping requested by PM"
+    }
+  ],
+  "notes": [
+    "Project ownership is manually configured until the PMS MCP interface is available.",
+    "Project state, RAG, stage, and timeline remain Unknown/Needs PMS sync until approved PMS data is connected.",
+    "The file roots are explicit Workspace mounts, not permission grants. This fixture must not be used to infer access to other project folders.",
+    "File operations inside an opened project Workspace follow normal DSH session permissions and the Windows file-server ACL; the native right file sidebar remains preview-only."
+  ]
+}

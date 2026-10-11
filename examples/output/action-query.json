@@ -1,0 +1,44 @@
+﻿{
+    "project_id":  "PRJ-DEMO-001",
+    "as_of":  "2025-04-14",
+    "filter":  "all",
+    "actions":  [
+                    {
+                        "id":  "ACT-001",
+                        "action":  "确认样品运输温度和数量",
+                        "owner":  "Demo Pharma",
+                        "owner_type":  "Client",
+                        "due_date":  "2025-04-15",
+                        "status":  "Open",
+                        "source":  "Kick-off minutes 2025-04-04",
+                        "overdue":  false,
+                        "due_soon":  true,
+                        "client_owned":  true,
+                        "unassigned":  false
+                    },
+                    {
+                        "id":  "ACT-002",
+                        "action":  "完成现有分析方法文件清单",
+                        "owner":  "Analytical Lead",
+                        "owner_type":  "Internal",
+                        "due_date":  "2025-04-17",
+                        "status":  "In Progress",
+                        "source":  "Internal meeting 2025-04-09",
+                        "overdue":  false,
+                        "due_soon":  true,
+                        "client_owned":  false,
+                        "unassigned":  false
+                    }
+                ],
+    "counts":  {
+                   "total":  2,
+                   "overdue":  0,
+                   "due_soon":  2,
+                   "client_owned":  1,
+                   "unassigned":  0
+               },
+    "sources":  [
+                    "C:\\Users\\jintao.liu\\AI\\preset\\PM\\examples/sample-project.json",
+                    "preset/tool-contracts.md"
+                ]
+}

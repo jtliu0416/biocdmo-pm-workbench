@@ -1,0 +1,20 @@
+# ===== 派生数据：可由 dws / 脚本重新生成，不入库 =====
+.pm-cache/
+pm-workbench/cache/
+*.log
+last-run.txt
+
+# ===== 敏感：绝不入库 =====
+.pm-password
+*密码*
+*加密*
+
+# ===== 依赖与本机产物 =====
+node_modules/
+*.bak-*
+*.broken-backup
+*.restored-good
+
+# ===== 系统文件 =====
+Thumbs.db
+Desktop.ini

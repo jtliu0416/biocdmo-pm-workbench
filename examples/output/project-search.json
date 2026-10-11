@@ -1,0 +1,18 @@
+﻿{
+    "project_id":  "PRJ-DEMO-001",
+    "query":  "tech",
+    "entity":  "all",
+    "matches":  [
+                    {
+                        "entity":  "project",
+                        "id":  "PRJ-DEMO-001",
+                        "field":  "stage",
+                        "content":  "Tech Transfer",
+                        "source":  "project record"
+                    }
+                ],
+    "sources":  [
+                    "C:\\Users\\jintao.liu\\AI\\preset\\PM\\examples/sample-project.json",
+                    "preset/tool-contracts.md"
+                ]
+}

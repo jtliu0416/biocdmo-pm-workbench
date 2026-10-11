@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-01",
+  "source": "read-only direct listing of each explicitly mapped UNC project root",
+  "projects": {
+    "IP266": {
+      "root_listing": [
+        "01-协议",
+        "02-项目工时预算",
+        "03-项目启动",
+        "04-项目计划",
+        "05-项目进展汇报",
+        "06-项目会会议纪要",
+        "07-项目管理记录文件",
+        "08-项目复盘"
+      ],
+      "notes": ["该历史目录结构使用 08-项目复盘；未观察到模板中的 08-申报资料支持性文件 / 09-项目复盘双目录结构。"]
+    },
+    "IP322": {
+      "root_listing": [
+        "01-协议",
+        "02-项目工时预算",
+        "03-项目启动",
+        "04-项目计划",
+        "05-项目进展汇报",
+        "06-项目会会议纪要",
+        "07-项目管理记录文件",
+        "08-申报资料支持性文件",
+        "09-项目复盘"
+      ]
+    },
+    "IP160": {
+      "root_listing": [
+        "01-协议",
+        "02-项目工时预算",
+        "03-项目启动",
+        "04-项目计划",
+        "05-项目进展汇报",
+        "06-项目会会议纪要",
+        "07-项目管理记录文件",
+        "08-申报资料支持性文件",
+        "09-项目复盘"
+      ]
+    }
+  },
+  "boundary": "This is a read-only captured index of allowlisted project roots, not a live file-server scan. Live file listing requires the later pmFileAdapter host service."
+}

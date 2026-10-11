@@ -1,0 +1,54 @@
+﻿{
+    "project_id":  "PRJ-DEMO-001",
+    "as_of":  "2025-04-14",
+    "overall_status":  "Amber",
+    "at_risk_milestones":  [
+                               {
+                                   "id":  "MS-002",
+                                   "name":  "样品到货",
+                                   "planned_date":  "2025-04-18",
+                                   "owner":  "Client",
+                                   "source":  "Client email 2025-04-08"
+                               }
+                           ],
+    "overdue_actions":  [
+
+                        ],
+    "missing_fields":  [
+                           "follow-up meeting date and link"
+                       ],
+    "critical_path":  [
+                          {
+                              "id":  "MS-001",
+                              "name":  "Technical package confirmation",
+                              "depends_on":  [
+
+                                             ],
+                              "status":  "Done"
+                          },
+                          {
+                              "id":  "MS-002",
+                              "name":  "Sample arrival",
+                              "depends_on":  [
+                                                 "MS-001"
+                                             ],
+                              "status":  "At Risk"
+                          },
+                          {
+                              "id":  "MS-003",
+                              "name":  "Tech transfer gap assessment",
+                              "depends_on":  [
+                                                 "MS-001",
+                                                 "MS-002"
+                                             ],
+                              "status":  "Planned"
+                          }
+                      ],
+    "scenario_impacts":  [
+
+                         ],
+    "sources":  [
+                    "C:\\Users\\jintao.liu\\AI\\preset\\PM\\examples/sample-project.json",
+                    "preset/tool-contracts.md"
+                ]
+}

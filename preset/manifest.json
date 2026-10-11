@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "name": "biocdmo-pm-harness",
+  "version": "0.1.0",
+  "displayName": "BioCDMO PM Harness",
+  "description": "面向生物药 CDMO 项目经理的项目控制塔 preset。",
+  "locale": "zh-CN",
+  "systemPrompt": "preset/system-prompt.md",
+  "projectSchema": "preset/project-schema.json",
+  "statusRules": "preset/status-rules.md",
+  "knowledge": ["knowledge/cdmo-lifecycle.md", "knowledge/email-style-guide.md"],
+  "commands": [
+    {"name":"new-project","label":"新建项目","workflow":"workflows/new-project.md","mode":"analysis"},
+    {"name":"meeting-minutes","label":"整理会议纪要","workflow":"workflows/meeting-minutes.md","mode":"analysis"},
+    {"name":"weekly-review","label":"生成项目周报","workflow":"workflows/weekly-review.md","mode":"analysis"}
+  ],
+  "tools": {
+    "readOnly": ["project_search", "document_extract", "timeline_check", "action_query", "contract_obligation_extract"],
+    "contracts": "preset/tool-contracts.md",
+    "generation": ["minutes_generate", "weekly_report_generate", "email_draft_generate", "risk_review_generate"],
+    "write": [],
+    "externalSideEffects": []
+  },
+  "safety": {
+    "draftFirst": true,
+    "requirePmReviewFor": ["client_commitment", "schedule_delay", "quality_event", "deviation", "oos", "capa", "contract", "pricing", "batch_release", "regulatory"],
+    "neverInventOwnerOrDate": true,
+    "preserveSource": true
+  },
+  "integrationPlan": "preset/enterprise-integration-plan.md",
+  "integrationQuestionnaire": "preset/integration-api-questionnaire.md",
+  "integrationStatus": "target systems identified: Alibaba Enterprise Mail (external client email), DingTalk (internal collaboration), custom project-management timeline; adapters not configured"
+}

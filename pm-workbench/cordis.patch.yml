@@ -1,0 +1,4 @@
+﻿- insert:
+    - id: pm-workbench
+      name: '@local/dsh-biocdmo-pm-workbench'
+      config: {}

@@ -1,0 +1,31 @@
+{
+  "project_id": "PRJ-DEMO-001",
+  "client": "Demo Pharma",
+  "project_name": "Demo-001 单抗技术转移与工艺开发",
+  "molecule": "mAb-D001",
+  "project_type": "Tech Transfer + Process Development",
+  "stage": "Tech Transfer",
+  "status": "Amber",
+  "project_manager": "PM Demo",
+  "start_date": "2025-04-01",
+  "target_end_date": "2025-12-19",
+  "milestones": [
+    {"id":"MS-001","name":"客户技术包确认","planned_date":"2025-04-11","actual_date":null,"owner":"Client","status":"Done","dependencies":[],"source":"Kick-off minutes 2025-04-04"},
+    {"id":"MS-002","name":"样品到货","planned_date":"2025-04-18","actual_date":null,"owner":"Client","status":"At Risk","dependencies":["MS-001"],"source":"Client email 2025-04-08"},
+    {"id":"MS-003","name":"技术转移差距分析完成","planned_date":"2025-04-25","actual_date":null,"owner":"Tech Transfer","status":"Planned","dependencies":["MS-001","MS-002"],"source":"Project plan v1.0"}
+  ],
+  "actions": [
+    {"id":"ACT-001","action":"确认样品运输温度和数量","owner":"Demo Pharma","owner_type":"Client","due_date":"2025-04-15","status":"Open","source":"Kick-off minutes 2025-04-04","next_follow_up":"2025-04-14"},
+    {"id":"ACT-002","action":"完成现有分析方法文件清单","owner":"Analytical Lead","owner_type":"Internal","due_date":"2025-04-17","status":"In Progress","source":"Internal meeting 2025-04-09","next_follow_up":null}
+  ],
+  "risks": [
+    {"id":"RISK-001","description":"客户样品运输信息未确认，可能推迟差距分析","probability":"Medium","impact":"High","owner":"PM Demo","status":"Open","mitigation":"4月14日跟进；若4月15日仍未确认，升级客户 PM","source":"Client email 2025-04-08"}
+  ],
+  "documents": [
+    {"id":"DOC-001","name":"Project Plan","type":"Timeline","version":"v1.0","status":"Current","source":"SharePoint placeholder"},
+    {"id":"DOC-002","name":"Kick-off Minutes","type":"Meeting Minutes","version":"2025-04-04","status":"Approved","source":"PM notes"}
+  ],
+  "contract_obligations": [
+    {"id":"OBL-001","obligation":"客户提供完整技术转移资料和样品","responsible_party":"Demo Pharma","due_date":"2025-04-18","status":"In Progress","contract_source":"SOW placeholder"}
+  ]
+}
