@@ -166,6 +166,13 @@ node pm-workbench\verify-client.cjs
 
 ---
 
+## 3b. 环境切换（测试 ⇄ 生产）
+
+- **唯一开关**：`pm-workbench\projects.json` 的 `projects[].file_root`。改完即生效（归档脚本与校验都从这里解析），无需改代码。
+- **本机当前**：测试 = \\C-FILESERVER\… 与 \\intbio.com\group\…（历史产物在测试路径下）；生产 = `G:\06-项目管理部-宋莉\01-Project-Ongoing\<项目ID>`（G: 是 \\intbio.com\group 的映射盘）。
+- **映射盘注意**：G: 按用户会话映射。若 DSH 启动后报"路径不存在"，先在资源管理器确认 G: 已连接，或改用 UNC 形式。
+- 测试产物清理：删除各测试路径下的 `06-项目会会议纪要\<…>` 文件夹与 `.pm-cache\` 即可（均为派生数据）。
+
 ## 4. 每台机器的一次性人工动作
 
 | 动作 | 频率 | 说明 |

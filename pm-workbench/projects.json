@@ -13,9 +13,9 @@
       "status": "active",
       "rag": "Unknown",
       "stage": "Needs PMS sync",
-      "file_root": "\\\\intbio.com\\group\\06-项目管理部-宋莉\\01-Project-Ongoing\\IP266",
+      "file_root": "G:\\06-项目管理部-宋莉\\01-Project-Ongoing\\IP266",
       "access_mode": "workspace-mounted",
-      "source": "manual mapping requested by PM"
+      "source": "production mapping (G: drive)"
     },
     {
       "project_id": "IP322",
@@ -24,9 +24,9 @@
       "status": "active",
       "rag": "Unknown",
       "stage": "Needs PMS sync",
-      "file_root": "\\\\intbio.com\\group\\06-项目管理部-宋莉\\01-Project-Ongoing\\IP322",
+      "file_root": "G:\\06-项目管理部-宋莉\\01-Project-Ongoing\\IP322",
       "access_mode": "workspace-mounted",
-      "source": "manual mapping requested by PM"
+      "source": "production mapping (G: drive)"
     },
     {
       "project_id": "IP160",
@@ -35,15 +35,17 @@
       "status": "active",
       "rag": "Unknown",
       "stage": "Needs PMS sync",
-      "file_root": "\\\\intbio.com\\group\\06-项目管理部-宋莉\\01-Project-Ongoing\\IP160",
+      "file_root": "G:\\06-项目管理部-宋莉\\01-Project-Ongoing\\IP160",
       "access_mode": "workspace-mounted",
-      "source": "manual mapping requested by PM"
+      "source": "production mapping (G: drive)"
     }
   ],
   "notes": [
     "Project ownership is manually configured until the PMS MCP interface is available.",
     "Project state, RAG, stage, and timeline remain Unknown/Needs PMS sync until approved PMS data is connected.",
     "The file roots are explicit Workspace mounts, not permission grants. This fixture must not be used to infer access to other project folders.",
-    "File operations inside an opened project Workspace follow normal DSH session permissions and the Windows file-server ACL; the native right file sidebar remains preview-only."
+    "File operations inside an opened project Workspace follow normal DSH session permissions and the Windows file-server ACL; the native right file sidebar remains preview-only.",
+    "生产环境映射：G: → \\\\intbio.com\\group（同一后端，盘符随用户会话映射）。2026-10-11 由测试环境切换。",
+    "2026-10-11 修正：file_root 反斜杠规范化为单层。"
   ]
 }
