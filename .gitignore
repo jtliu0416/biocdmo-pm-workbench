@@ -18,3 +18,5 @@ node_modules/
 # ===== 绯荤粺鏂囦欢 =====
 Thumbs.db
 Desktop.ini
+
+# 本地修复工作区（不属于本仓库）.fix-workspace/dsh-email-src/
