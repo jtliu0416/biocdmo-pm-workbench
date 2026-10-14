@@ -90,6 +90,16 @@
 - **教训**：项目号**取自当前会话工作区路径**（`IP\d{3}`）；工作区识别不到时才提示切工作区，**绝不列出 IP266/IP322/IP160 让 PM 挑**。
 - **归档索引键 = `uuid + 项目`**：同一听记允许归档到多个项目（跨项目会议真实存在）；"已归档"按**当前项目**判定（本项目已归档 🟢`✅`，仅他项目归档 🟡`📦 已归档于 IPxxx`）。
 
+### 2.9 往 DSH profile 写 JSON 带 BOM → 整个宿主启动崩溃（最严重的一次）
+
+- **现象**：DSH 重启后完全不可用，崩溃日志 `DesktopHostFatalError: Unexpected token '\ufeff' … is not valid JSON`，所有插件（包括我们和其他第三方）都没被加载。
+- **根因**：profile 的 `package.json` 被写入时带了 **UTF-8 BOM**（`EF BB BF`）。DSH 的 `readProfileManifest` 用 `JSON.parse` 严格解析，BOM 直接崩溃。写入来源：PowerShell 5.1 的 `Set-Content -Encoding UTF8`（必写 BOM）与 dsh-email 插件的安装脚本（同样的 bug，已在其 GitHub 反馈）。
+- **教训**：
+  1. 凡是写 **JSON**（尤其 profile 的 package.json / cordis.yml），必须**无 BOM UTF-8**：用 `fs.writeFileSync(p, t, 'utf8')`（Node）或 `[IO.File]::WriteAllText(p, t, UTF8Encoding($false))`（PS），**绝不用 PS5.1 的 `Set-Content -Encoding UTF8`**；
+  2. 相反，**.ps1 脚本必须带 BOM**（否则 PS5.1 把 UTF-8 中文解析成乱码）——两类文件规则相反，极易搞混；
+  3. 修这种崩溃：先查崩溃日志（logs\crash-*-host.log），备份坏文件后**无 BOM 重写**，再 `pnpm install` 清理依赖与 lockfile。
+- **现有守卫**：新增 profile 健康检查（无 BOM + JSON 可解析 + 我们的包在册 + 已废弃插件无残留）。
+
 ### 2.8 硬编码个人/服务器路径（可移植性）
 
 - **教训**：不得出现 `C:\Users\<某人>\…`、个人缓存目录等；缓存放**项目内的 `.pm-cache`（相对路径）**；归档脚本解析顺序 `-ProjectRoot` → 环境变量 `PM_PROJECT_ROOT` → `projects.json`。
@@ -107,6 +117,8 @@
 6. ❌ 用目录路径去调用文件资源接口（`openResource` / 树参数）。
 7. ❌ 让 PM 在多个项目之间手工选择归属。
 8. ❌ 为了让测试通过而在生产日志里写测试信息。
+9. ❌ 用 PowerShell 5.1 `Set-Content -Encoding UTF8` 写任何 JSON 文件（必带 BOM，DSH 启动直接崩溃）。
+10. ❌ 安装未经 BOM 审查的第三方插件安装器（dsh-email 的安装脚本就有此 bug，已在麒麟座/上游反馈前保持卸载）。
 
 ---
 

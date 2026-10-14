@@ -100,4 +100,13 @@ if (-not (Select-String -Path $lessons -SimpleMatch '禁止再引入任何宿主
 # 分发/配置文档必须存在（依赖链与安装顺序的单一来源）
 $deploy = Join-Path (Split-Path $bundle -Parent) 'docs\pm-workbench-deployment.md'
 if (-not (Test-Path $deploy)) { throw 'Missing deployment doc: docs/pm-workbench-deployment.md' }
+# ---- profile 健康守卫：package.json 无 BOM、可解析、我们的包在册、废弃插件无残留 ----
+$profilePkg = Join-Path $env:USERPROFILE '.dsh\profiles\desktop\package.json'
+if (Test-Path $profilePkg) {
+  $bytes = [IO.File]::ReadAllBytes($profilePkg)[0..2]
+  if ($bytes[0] -eq 0xEF -and $bytes[1] -eq 0xBB -and $bytes[2] -eq 0xBF) { throw 'Profile package.json has UTF-8 BOM: DSH host will crash on boot (rewrite without BOM)' }
+  try { $pj = Get-Content $profilePkg -Raw -Encoding UTF8 | ConvertFrom-Json } catch { throw "Profile package.json is not valid JSON: $($_.Exception.Message)" }
+  if ($pj.dsh.profile.bundles -notcontains '@local/dsh-biocdmo-pm-workbench') { throw 'Profile bundles lost @local/dsh-biocdmo-pm-workbench' }
+  if ($pj.dependencies.'dsh-email') { throw 'dsh-email is banned: its installer writes BOM into profile package.json (boot crash)' }
+}
 Write-Output 'PM WORKBENCH MVP VALIDATION PASSED'
