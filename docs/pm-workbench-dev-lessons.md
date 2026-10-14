@@ -93,7 +93,7 @@
 ### 2.9 往 DSH profile 写 JSON 带 BOM → 整个宿主启动崩溃（最严重的一次）
 
 - **现象**：DSH 重启后完全不可用，崩溃日志 `DesktopHostFatalError: Unexpected token '\ufeff' … is not valid JSON`，所有插件（包括我们和其他第三方）都没被加载。
-- **根因**：profile 的 `package.json` 被写入时带了 **UTF-8 BOM**（`EF BB BF`）。DSH 的 `readProfileManifest` 用 `JSON.parse` 严格解析，BOM 直接崩溃。写入来源：PowerShell 5.1 的 `Set-Content -Encoding UTF8`（必写 BOM）与 dsh-email 插件的安装脚本（同样的 bug，已在其 GitHub 反馈）。
+- **根因**：profile 的 `package.json` 被写入时带了 **UTF-8 BOM**（`EF BB BF`）。DSH 的 `readProfileManifest` 用 `JSON.parse` 严格解析，BOM 直接崩溃。写入来源（复盘确认）：**我们自己**用 PowerShell 5.1 `Set-Content -Encoding UTF8` 改写 bundles 时引入（PS5.1 该命令必写 BOM）；dsh-email 仓库源码经克隆审查**没有**任何写 package.json 的安装器代码，插件本身清白。
 - **教训**：
   1. 凡是写 **JSON**（尤其 profile 的 package.json / cordis.yml），必须**无 BOM UTF-8**：用 `fs.writeFileSync(p, t, 'utf8')`（Node）或 `[IO.File]::WriteAllText(p, t, UTF8Encoding($false))`（PS），**绝不用 PS5.1 的 `Set-Content -Encoding UTF8`**；
   2. 相反，**.ps1 脚本必须带 BOM**（否则 PS5.1 把 UTF-8 中文解析成乱码）——两类文件规则相反，极易搞混；
@@ -118,7 +118,7 @@
 7. ❌ 让 PM 在多个项目之间手工选择归属。
 8. ❌ 为了让测试通过而在生产日志里写测试信息。
 9. ❌ 用 PowerShell 5.1 `Set-Content -Encoding UTF8` 写任何 JSON 文件（必带 BOM，DSH 启动直接崩溃）。
-10. ❌ 安装未经 BOM 审查的第三方插件安装器（dsh-email 的安装脚本就有此 bug，已在麒麟座/上游反馈前保持卸载）。
+10. ❌ 安装任何插件后，不做 BOM/JSON 复检就重启 DSH（正确姿势：装完立即验证 profile JSON 无 BOM 且可解析）。
 
 ---
 
